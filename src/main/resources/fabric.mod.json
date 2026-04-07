@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "delay_tool_usage",
+  "version": "${version}",
+
+  "name": "Delay Tool Usage",
+  "description": "Delay right-clicking with tools to prevent accidental block changes",
+  "authors": ["creoii"],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/delay_tool_usage/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.creoii.delaytoolusage.DelayToolUsage"]
+  },
+
+  "mixins": [
+    "delay-tool-usage.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": {
+        "id": "great_big_world",
+        "name": "Great Big World",
+        "description": ""
+      }
+    }
+  }
+}

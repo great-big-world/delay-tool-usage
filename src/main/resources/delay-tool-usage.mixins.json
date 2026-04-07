@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.creoii.delaytoolusage.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AxeItemMixin",
+    "ItemsMixin",
+    "ShovelItemMixin",
+    "UseActionMixin"
+  ],
+  "client": [
+    "client.ClientPlayerEntityMixin",
+    "client.HeldItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1,
+    "maxShiftBy": 2
+  }
+}
