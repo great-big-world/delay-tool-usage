@@ -9,7 +9,7 @@
   "contact": {},
 
   "license": "All-Rights-Reserved",
-  "icon": "assets/delay_tool_usage/logo.png",
+  "icon": "assets/delay_tool_usage/icon.png",
 
   "environment": "*",
   "entrypoints": {
